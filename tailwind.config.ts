@@ -19,6 +19,9 @@ const config: Config = {
       lavender: "#D68FEF",
       "dark-lavender": "#C034F2",
     },
+    fontFamily: {
+      niconne: ["Niconne", "sans-serif"],
+    },
   },
   plugins: [],
 };
