@@ -1,8 +1,17 @@
+import Image from "next/image";
 export default function Home() {
   return (
     <main className="h-screen bg-gradient-to-r from-superlight-lavender from-20% via-lavender via-60% md:via-50% to-dark-lavender to-100% ">
       <div className="flex flex-col items-center justify-center h-screen">
-        <div></div>
+        <div>
+          <Image
+            src="/Right Arc (Main).png"
+            alt="Lavender Flora"
+            width={880.41}
+            height={633.46}
+            className="rotate-[29.68deg] drop-shadow-xl"
+          />
+        </div>
         <div className="flex">
           <div className="font-niconne text-[102px]">Danny</div>
           <div className="font-inika text-[102px] text-[#5B6345]">&</div>
