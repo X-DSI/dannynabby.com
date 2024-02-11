@@ -1,14 +1,14 @@
 import Image from "next/image";
 export default function Home() {
   return (
-    <main className="h-screen bg-gradient-to-r from-superlight-lavender from-20% via-lavender via-60% md:via-50% to-dark-lavender to-100% ">
-      <div className="flex flex-col items-center justify-center h-screen">
+    <main className="min-h-screen bg-gradient-to-r from-superlight-lavender from-20% via-lavender via-60% md:via-50% to-dark-lavender to-100% ">
+      <div className="flex flex-col items-center justify-center h-full">
         <div>
           <Image
             src="/Right Arc (Main).png"
             alt="Lavender Flora"
-            width={880.41}
-            height={633.46}
+            width={680.41}
+            height={433.46}
             className="rotate-[29.68deg] drop-shadow-xl"
           />
         </div>
