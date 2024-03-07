@@ -24,18 +24,12 @@ export default function Home() {
         </div>
         <div className="flex gap-3">
           <div className="rounded-md border-2 border-[#5B6345] text-[#5B6345] text-[15px] md:text-2xl p-2 font-semibold text-center">
-            <Link
-              isPrimary={true}
-              href="https://maps.app.goo.gl/qviaTXu6zU6pnwk98"
-            >
+            <Link href="https://maps.app.goo.gl/qviaTXu6zU6pnwk98">
               Location
             </Link>
           </div>
           <div className="rounded-md border-2 border-[#5B6345] text-[#5B6345] text-[15px] md:text-2xl p-2 font-semibold text-center">
-            <Link
-              isPrimary={true}
-              href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-            >
+            <Link href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
               Live Stream
             </Link>
           </div>
